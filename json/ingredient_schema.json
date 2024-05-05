@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ingredients": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "idIngredient": {
+              "type": "string"
+            },
+            "strIngredient": {
+              "type": "string"
+            },
+            "strDescription": {
+              "type": "string"
+            },
+            "strType": {
+              "type": "string"
+            },
+            "strAlcohol": {
+              "type": "string"
+            },
+            "strABV": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "idIngredient",
+            "strIngredient",
+            "strDescription",
+            "strType",
+            "strAlcohol",
+            "strABV"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "ingredients"
+  ]
+}
