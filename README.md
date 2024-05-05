@@ -43,7 +43,7 @@ The automated tests can be run via cmd, from the Cocktail_DB directory run the f
 - pytest test_cocktail_db.py --verbose
 
 Script output should look like below:
-![Output](Cocktail_DB\images\cmd_output.PNG?raw=true "Title")
+![Output](https://github.com/Ash274/CocktailDB_Exercise/blob/master/images/cmd_output.PNG)
 
 
 
